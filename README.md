@@ -41,6 +41,8 @@ Cuando se levante el contenedor ejecutara las migraciones nesesarias para que pu
 
 Si esta usando Postman importe el archivo **hospital-3-astronautas.postman_collection.json**. La coleccion ya tendra todos las scripts nesesarios para probar la api.
 
+> ⚠️ **Nota:** En los EndPoints **/api/patient/{id}** y **/api/patient/diagnosis-ai/{id}**  reemplaze los **id** por id validos generados. Que puede consultar en la base de datos o mediante el endPoint **/api/patient**.  
+
 ---
 
 ## 🧪 Endpoints
