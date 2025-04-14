@@ -31,6 +31,7 @@ npm install
 ```bash
 docker-compose up -d
 ```
+Cuando se levante el contenedor ejecutara las migraciones nesesarias para que pueda iniciar el proyecto con datos previamente registrados.
 
 > Esto levanta:  
 > 🐘 PostgreSQL  
@@ -38,7 +39,7 @@ docker-compose up -d
 
 5. **Importe la coleccion de postman**
 
-Si esta usando Postman importe el archivo **hospital-3-astronautas.postman_collection.json**. Cuando se levante el contenedor ejecutara las migraciones nesesarias para que pueda iniciar el proyecto con datos previamente registrados.
+Si esta usando Postman importe el archivo **hospital-3-astronautas.postman_collection.json**. La coleccion ya tendra todos las scripts nesesarios para probar la api.
 
 ---
 
@@ -75,7 +76,7 @@ POST /pacientes/:id/diagnostico-ai
 Authorization: Bearer <token>
 ```
 
-Este endpoint toma el `historial_medico` del paciente y genera un diagnóstico sugerido utilizando la API de OpenAI (ChatGPT).
+Este endpoint toma el `historial medico` del paciente y genera un diagnóstico sugerido utilizando la API de OpenAI (ChatGPT).
 
 ---
 
