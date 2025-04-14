@@ -11,15 +11,22 @@ Una API RESTful desarrollada con **NestJS**, que permite registrar, consultar y 
 ```bash
 git clone https://github.com/jorge7712051/hospital.git
 cd hospital
+
+```
+2. **Instale las dependencias**
+
+```bash
+npm install
 ```
 
-2. **Crea el archivo `.env`**
 
-> ⚠️ **Nota:** Si bien el archivo `.env` no se recomienda subir, para esta prueba se subira con variables temporales.
-> ⚠️ **Nota:** La clave de OpenAI proporcionada estará disponible solo hasta el **15 de abril de 2025**.
+3. **Valide el archivo `.env`**
+
+> ⚠️ **Nota:** Si bien el archivo `.env` no se recomienda subir, para esta prueba se subira con variables temporales.  
+> ⚠️ **Nota:** La clave de OpenAI proporcionada estará disponible solo hasta el **15 de abril de 2025**.  
 > ⚠️ **Nota:** Valide que los puertos **DB_PORT** y **SERVICE_PORT** esten libres de no ser asi cambie sus valores en el archivo `.env`.
 
-3. **Levanta la app con Docker**
+4. **Levanta la app con Docker**
 
 ```bash
 docker-compose up -d
@@ -29,7 +36,7 @@ docker-compose up -d
 > 🐘 PostgreSQL  
 > 🚀 API NestJS en modo desarrollo
 
-4. **Importe la coleccion de postman**
+5. **Importe la coleccion de postman**
 
 Si esta usando Postman importe el archivo **hospital-3-astronautas.postman_collection.json**.
 
