@@ -23,7 +23,7 @@ npm install
 3. **Valide el archivo `.env`**
 
 > ⚠️ **Nota:** Si bien el archivo `.env` no se recomienda subir, para esta prueba se subira con variables temporales.  
-> ⚠️ **Nota:** La clave de OpenAI proporcionada por email estará disponible solo hasta el **15 de abril de 2025**.  
+> ⚠️ **Nota:** La clave de OpenAI proporcionada por **email** estará disponible solo hasta el **15 de abril de 2025**.  
 > ⚠️ **Nota:** Valide que los puertos **DB_PORT** y **SERVICE_PORT** esten libres de no ser asi cambie sus valores en el archivo `.env`.
 
 4. **Levanta la app con Docker**
